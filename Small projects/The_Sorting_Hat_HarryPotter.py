@@ -16,16 +16,16 @@ print('    1) Dawn')
 print('    2) Dusk')
 
 while True:  # loop infinitely until correct answer
-    question_1 = input('    Insert answer here: ')
+    question = input('    Insert answer here: ')
     print(' ')
 
-    if question_1 == '1' or question_1 == '2':  # check if the input is valid
+    if question == '1' or question == '2':  # check if the input is valid
         break  # exit the loop if the input is valid
     else:
         print('Invalid input. Please enter "1" or "2".')  # prompt the user to re-enter the input
 
 # Assigning points to the houses according to the first answer. 
-if question_1 == 1:
+if question == 1:
     Gryffindor=1
     Ravenclaw = 1
 else:
@@ -42,20 +42,20 @@ print('    4) The Bold')
 
 # loop infinitely until correct answer
 while True:  
-    question_2 = input('    Insert answer here: ')
+    question = input('    Insert answer here: ')
     print(' ')
 
-    if question_2 == '1' or question_2 == '2' or question_2 == '3' or question_2 == '4':  # check if the input is valid
+    if question == '1' or question == '2' or question == '3' or question == '4':  # check if the input is valid
         break  # exit the loop if the input is valid
     else:
         print('Invalid input.')  # prompt the user to re-enter the input
 
 # Assigning points to the houses according to the first answer. 
-if question_2 == 1:
+if question == 1:
     Hufflepuff = 2 + Hufflepuff
-elif question_2 == 2:
+elif question == 2:
     Slytherin = 1 + Slytherin
-elif question_2 == 3:
+elif question == 3:
     Ravenclaw = 1 + Ravenclaw
 else:
     Gryffindor = 1 + Gryffindor    
@@ -70,20 +70,20 @@ print('    4) The drum')
 
 # loop infinitely until correct answer
 while True:  
-    question_3 = input('    Insert answer here: ')
+    question = input('    Insert answer here: ')
     print(' ')
 
-    if question_3 == '1' or question_3 == '2' or question_3 == '3' or question_3 == '4':  # check if the input is valid
+    if question == '1' or question == '2' or question == '3' or question == '4':  # check if the input is valid
         break  # exit the loop if the input is valid
     else:
         print('Invalid input.')  # prompt the user to re-enter the input
 
 # Assigning points to the houses according to the first answer. 
-if question_3 == 1:
+if question == 1:
     Slytherin  = 4 + Slytherin
-elif question_3 == 2:
+elif question == 2:
     Hufflepuff = 4 + Hufflepuff
-elif question_3 == 3:
+elif question == 3:
     Ravenclaw = 4 + Ravenclaw
 else:
     Gryffindor = 4 + Gryffindor         
