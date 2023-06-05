@@ -2,4 +2,4 @@ I created this 12-week data analysis bootcamp focused on Python by using ChatGPT
 
 You can find the curriculum for the bootcamp in my blog, specifically, [this is the post](https://jessyacunarodriguez.wixsite.com/a-hobbit-talks-data/post/the-personalized-python-data-analysis-bootcamp-i-crafted-using-chatgpt). 
 
-I will be posting a Jupyter notebook that contains the theory I have gathered, and also the project for that respective week. 
+I will be posting a Jupyter notebook that contains the theory I have gathered, and also the project for that respective week. Also, I will upload the dataset I use for each project. 
